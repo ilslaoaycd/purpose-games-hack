@@ -29,4 +29,4 @@ setInterval(function(){
     elem.style.outlineOffset = "4px";
     elem.style.zIndex = "999999";
     eventFire(elem, "click");
-}, 10);
+}, 10); // change to 300 if you actually want to get on the leaderboard without being detected
