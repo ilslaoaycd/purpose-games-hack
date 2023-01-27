@@ -1,4 +1,5 @@
 var elem = document.body;
+var startButton = document.getElementById("startGame");
 
 function eventFire(el, etype){
   if (el.fireEvent) {
@@ -13,6 +14,8 @@ function eventFire(el, etype){
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
+
+eventFire(startButton, "click");
 
 setInterval(function(){
     if (elem) {
